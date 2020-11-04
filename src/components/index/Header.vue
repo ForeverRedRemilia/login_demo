@@ -15,13 +15,15 @@ export default {
 <style scoped>
   .header-div {
     /*background-size: 4096px;*/
-    height: 50px;
+    line-height: 36px;
     margin: 0 auto;
-    background-color: #239676;
+    background-color: #FFF0F5;
+    text-align: right;
+    /*background-image: url("../../desktop.jpg");*/
   }
 
   .header-span {
-    font-size: 24px;
-    color: #252525;
+    margin-right: 30px;
+    vertical-align: middle;
   }
 </style>

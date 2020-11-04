@@ -1,20 +1,18 @@
 <template>
   <div>
     <Header></Header>
-    fuck you
-    <HelloWorld></HelloWorld>
-    fuck you
+    <LoginForm></LoginForm>
   </div>
 </template>
 
 <script>
-import HelloWorld from '../components/HelloWorld'
 import Header from '../components/index/Header'
+import LoginForm from '@/components/LoginForm'
 export default {
   name: 'Index',
   components: {
-    Header,
-    HelloWorld
+    LoginForm,
+    Header
   }
 }
 </script>

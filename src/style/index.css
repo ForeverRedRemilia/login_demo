@@ -1,0 +1,12 @@
+.login-form-input{
+    width: 300px;
+    align-content: center;
+    margin-top: 25px;
+}
+.el-input__inner::placeholder{
+    color: darkcyan;
+}
+.el-input__inner{
+    border-color:darkmagenta;
+}
+
